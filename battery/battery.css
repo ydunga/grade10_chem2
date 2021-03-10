@@ -1,0 +1,234 @@
+  
+  .container {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .toppane {
+    width: 100%;
+    height: 25%;
+    background-color: #f94144;
+    border: 8px solid black;
+  }
+  
+  .bottompane {
+    width: 100%;
+    height: 25%;
+    background-color: #f3722c;
+    border: 8px solid black;
+  }
+  
+  
+  .middlepane {
+    width: 100%;
+    height: 25%;
+    background-color: #f8961e;
+    border: 8px solid black;
+  }
+
+  object {
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+  }
+
+  .front {
+    width: 580px;
+    height: 100px;
+    background: red;
+    border: 8px solid black;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right:auto;
+    
+   
+    
+  }
+  
+  .front::before {
+    content: "Batteries";
+    position: absolute;
+    transform: translate(30px, 30px);
+    width: 580px;
+    height: 100px;
+    background: orange;
+     border: 8px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+   
+  }
+  
+  .front2 {
+    width: 480px;
+    height: 80px;
+    background: #F5D491;
+    border: 5px solid black;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right:auto;
+    
+    
+  }
+  
+  .front2:before {
+    content: "Inside the battery";
+    position: absolute;
+    transform: translate(30px, 15px);
+    width: 480px;
+    height: 80px;
+    background: #F9B9B7;
+     border: 5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+  
+   
+  }
+  
+  .front3 {
+    width: 480px;
+    height: 80px;
+    background: #F5D491;
+    border: 5px solid black;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right:auto;
+    
+    
+  }
+  
+  .front3:before {
+    content: "Components";
+    position: absolute;
+    transform: translate(30px, 15px);
+    width: 480px;
+    height: 80px;
+    background: #F9B9B7;
+     border: 5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+  
+   
+  }
+
+
+
+  .grid-container {
+      display: grid ;
+      grid-template-columns: 100%;
+     
+  }
+
+  .container1 {
+      width: 100%;
+      height: 400px;
+      background-color: #f9844a ;
+      text-align: center;
+      border: 3px solid black;
+      font-size: 20px;
+      font-weight: bold;
+      
+  }
+
+  .container2 {
+    width: 100%;
+    height: 400px;
+    background-color: #f9c74f ;
+    text-align: center;
+    border: 3px solid black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container3 {
+    width: 100%;
+    height: 400px;
+    background-color: #90be6d ;
+    text-align: center;
+    border: 3px solid black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container4 {
+    width: 100%;
+    height: 400px;
+    background-color: #43aa8b ;
+    text-align: center;
+    border: 3px solid black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container5 {
+    width: 100%;
+    height: 400px;
+    background-color: #4d908e ;
+    text-align: center;
+    border: 3px solid black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container6 {
+    width: 100%;
+    height: 600px;
+    background-color: #577590 ;
+    text-align: center;
+    border: 3px solid black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+svg {
+    margin-left: auto;
+    margin-right: auto;
+    display:block
+}
+
+a {
+  background-color: #fc5130;
+  border: 1px solid black;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.flex-container {
+display: flex;
+flex-direction: row;
+justify-content: center;
+
+}
+
+.flex-container > div {
+width: auto;
+margin: 10px;
+text-align: center;
+line-height: 75px;
+font-size: 30px;
+}

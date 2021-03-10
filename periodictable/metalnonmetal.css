@@ -1,0 +1,218 @@
+
+  .front {
+    width: 580px;
+    height: 100px;
+    background: red;
+    border: 8px solid black;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right:auto;
+    
+   
+    
+  }
+  
+  .front::before {
+    content: "Metals";
+    position: absolute;
+    transform: translate(30px, 30px);
+    width: 580px;
+    height: 100px;
+    background: orange;
+     border: 8px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+   
+  }
+  
+  .front2 {
+    width: 480px;
+    height: 80px;
+    background: #F5D491;
+    border: 5px solid black;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right:auto;
+    
+    
+  }
+  
+  .front2:before {
+    content: "Non-metals";
+    position: absolute;
+    transform: translate(30px, 15px);
+    width: 480px;
+    height: 80px;
+    background: #F9B9B7;
+     border: 5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+  
+   
+  }
+  
+  .front3 {
+    width: 480px;
+    height: 80px;
+    background: #F5D491;
+    border: 5px solid black;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right:auto;
+    
+    
+  }
+  
+  .front3:before {
+    content: "What happens if one atom is more electronegative than the other";
+    position: absolute;
+    transform: translate(30px, 15px);
+    width: 480px;
+    height: 80px;
+    background: #F9B9B7;
+     border: 5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+  
+   
+  }
+  
+  
+  
+  
+  
+  
+  .container {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .toppane {
+    width: 100%;
+    height: 25%;
+    background-color: #c7d59f;
+    border: 5px solid black;
+  }
+  
+  .bottompane {
+    width: 100%;
+    height: 25%;
+    background-color: #8fb339;
+    border: 5px solid black;
+  }
+  
+  
+  .middlepane {
+    width: 100%;
+    height: 25%;
+    background-color: #b7ce63;
+    border: 5px solid black;
+  }
+  
+  p {
+      text-align: center;
+      font-size: 20px;
+    
+    margin: 50px;
+    }
+ 
+  
+
+
+svg {
+  margin-left:auto;
+  margin-right:auto;
+  display:block;
+}
+
+
+  a {
+      background-color: #7b9e24;
+      border: 1px solid black;
+      color: black;
+      padding: 10px 20px;
+      text-align: center;
+      font-size: 30px;
+  }
+
+  .element {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+    background-color: orange;
+    border: 5px solid black;
+    text-align: center;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+ 
+
+  .tooltip {
+    position: relative;
+    /*display: inline-block; not necessary*/
+    border-bottom: 1px dotted black;
+    color:red;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+  }
+  
+  .flex-container > div {
+    width: auto;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }

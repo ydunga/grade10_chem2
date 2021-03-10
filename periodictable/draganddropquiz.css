@@ -1,0 +1,74 @@
+/*--timberwolf: #daddd8ff */
+/*--tea-green: #c7d59fff */
+/*--june-bud: #b7ce63ff */
+/*--apple-green: #8fb339ff*/
+/*--army-green: #41521fff */
+
+
+
+h1 {
+    text-align: center;
+    background-color: #b7ce63ff;
+    padding: 30px;
+    border: 5px dotted black;
+  }
+  
+  body{
+      margin: 20px; /* Space from this element (entire page) and others*/
+      padding: 0; /*space from content and border*/
+      border: 8px solid black;
+      display:block;
+      box-sizing: border-box;
+  }
+
+  object {
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+  }
+  
+  
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    grid-template-rows: repeat(14,150px);
+    grid-gap: 10px;
+    justify-content: center; 
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  .grid-item, .grid-item2 {
+    background-color: #8fb339ff;
+    border: 5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .grid-itemq {
+    background-color: #daddd8ff;
+    border: 5px solid black;
+    grid-column: 1 / span 3;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .custom {
+    cursor: url("https://www.pngwing.com/en/free-png-bmlij"), auto;
+  }
+
+  .parent {
+    text-align:center;
+  }
+
+  a {
+      background-color: #7b9e24;
+      border: 1px solid black;
+      color: black;
+      padding: 10px 20px;
+      text-align: center;
+      font-size: 30px;
+  }

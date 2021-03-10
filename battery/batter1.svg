@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="210mm" height="297mm" version="1.1" viewBox="0 0 210 297" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g>
+  <path d="m60.646 100.97 0.78027 96.416c36.265 19.978 56.171 13.658 79.544 0.97555l1.1334-101.46-81.458-0.65036z" fill="#666" stroke="#000" stroke-width="3.465"/>
+  <path d="m62.571 148.87c20.964 9.1652 40.682 18.827 77.243 1.598l0.66453-53.234-78.044-1.3007z" fill="#fc0" stroke="#000" stroke-width="3.765"/>
+  <ellipse cx="101.4" cy="97.034" rx="41.143" ry="18.38" fill="#b3b3b3" stroke="#040b04" stroke-linecap="round" stroke-linejoin="round" stroke-width="4.122" style="paint-order:markers fill stroke"/>
+ </g>
+ <path d="m100.61 96.99 15.164-2.9608c-1.2428-1.4667-2.8975-7.1833 1.7052 2.1676-7.006 2.1065-11.925 1.779-16.869 0.79328z" fill="#483e37"/>
+ <g stroke="#000">
+  <path d="m97.717 125.52v19.674" fill="none" stroke-width="2.865"/>
+  <path d="m88.937 135.11 16.584-0.16259" fill="none" stroke-width="2.865"/>
+  <path d="m91.549 78.056c5.8413-3.1293 11.675-2.4716 16.867 0.02032-0.81272 1.8525-4.6481 2.4263-8.1786 3.129-2.9828-0.5307-6.0175-0.74952-8.6888-3.1493z" fill="#ac9393" stroke-linejoin="round" stroke-width=".865"/>
+  <path d="m91.975 78.076-6.5532 15.581c9.5668 3.1212 19.561 3.9134 30.352 0.37099l-7.358-15.952c-5.3306 2.0512-10.803 2.1528-16.441-1e-6z" fill="#916f6f" stroke-linejoin="round" stroke-width="1.226"/>
+ </g>
+ <path d="m137.27 154.06-0.34491 40.354c-6.28 5.0072-4.9915 10.813-47.022 12.072 5.9011 2.9315 31.812 3.9002 49.092-9.7724l0.45987-43.688z" fill="#4d4d4d"/>
+ <path d="m138.45 107.8-0.16259 41.461-1.7885 0.65036 0.32518-40.729z" fill="#d4aa00"/>
+ <path d="m120.98 82.95c4.2816 1.7376 8.8396 2.8699 12.104 6.3523 3.1084 1.7262 4.5865 5.0833 4.4327 8.5129-0.18458 3.0353-2.1532 5.5528-5.0058 6.566-3.0091 1.6542-5.5534 3.8481-8.2833 5.9274 3.3772-1.3945-1.1255 0.89956 11.571-5.4 2.3098-2.702 5.5225-5.328 4.6938-8.8667-0.90577-2.5085-1.5383-4.7874-3.845-5.9745-4.4418-3.9531-10.036-5.6147-15.668-7.1174z" fill="#808080"/>
+</svg>

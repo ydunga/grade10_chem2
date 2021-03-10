@@ -1,0 +1,41 @@
+body {
+    background-color: #F2542D;
+    padding: 50px;
+    border: 8px solid black;
+
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+
+
+.front {
+    width: 380px;
+    height: 50px;
+    background:#b7ce63;
+    border: 8px solid #41521f;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right:auto;
+    
+    
+  }
+  
+
+  object {
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+  }
+
+  a{
+      color: black;
+      font-size: 25px;
+  }

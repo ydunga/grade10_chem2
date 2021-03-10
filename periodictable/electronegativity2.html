@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "electronegativity2.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <title>Document</title>
+</head>
+<body>
+    <div class = "container">
+        <div class = "toppane">
+          <div class = "front animate__animated animate__swing">Experiment</div>
+          <br>
+      
+        <p>We've already defined that electronegativity is a measure of the tendency of an atom to <b>attract a bonding pair of electrons.</b> </p>
+      <p>Electropositivty on the other hand is the tendency of an atom to lose electrons.</p>
+      <p>The <b>Pauling scale</b> is used to measure the electronegativity of elements. </p>
+      <p>In the periodic table, electronegativity increases as we move to the right.</p>
+      
+      
+        </div>
+        <div class = "middlepane">
+        <div class = "front2">Electronegativity and bonding </div>
+      
+      <p>What happens if two atoms with a similar level of electronegativity interact with each other?</p>
+          <svg width = "500" height = "200" xmlns="http://www.w3.org/2000/svg">
+        <circle id = "circle1" cx = "100" cy = "100" r = "20" fill = "blue" stroke = "black" stroke-width = "1"/>
+        <animate
+                 xlink:href = "#circle1"
+                 attributeName = "cx"
+                 begin = "0s"
+                 dur = "1s"
+                 from = "100"
+                 to ="230"
+                 fill = "freeze"
+                 id = "first"
+                 repeatCount = "indefinite"
+                 />
+          <circle id = "circle2" cx = "400" cy = "100" r = "20" fill = "blue" stroke = "black" stroke-width = "1"/>
+        <animate 
+                 xlink:href = "#circle2"
+                 attributeName = "cx"
+                 begin = "0s"
+                 dur = "1s"
+                 from = "400"
+                 to = "250"
+                 fill = "freeze"
+                 repeatCount = "indefinite"/>
+      
+      </svg>
+      
+      <p>If the atoms are equally electronegative, both will have the same tendency to attract electrons. So the atoms will <b>share</b> the electron and on average it will be found halfway between the atoms.</p>
+      <p>Such a bond is known as a covalent bond.</p>
+      <p>This kind of bond would be common between two atoms of the same element. So H<sub>2</sub> or O<sub>2</sub>.</p>
+        </div>
+        <div class = "bottompane">
+          <div class = "front3">What happens if one atom is more electronegative than the other?</div>
+      <p>In this case, the more electronegative atom will attract the bonding electron more than the other atom. </p>
+      <p>The atoms will still share the bond, however the end with the more electronegative atom will now be slightly more negative than the other end. </p>
+      <p>Such kind of a bond is known as a <b>polar bond.</b> </p>
+      <p>A polar bond is a covalent bond in which there is a seperation of charge between one end and the other. </p>
+      <p>Polar bonds form between atoms with an electronegativity difference between 0.4 and 1.7</p>
+      <p>Water is a polar molecule. </p>
+      <svg width = "500" height = "300" viewBox = "0 0 500 200">
+        
+        <circle id = "oxygen" cx = "200" cy = "100" r = "30" fill = "yellow"/>
+        <animate
+                 xlink:href = "#oxygen"
+                 attributeName = "cx"
+                 begin = "0s"
+                 dur = "1s"
+                 repeatCount = "indefinite"
+                 values = "200;205;200;195;200"
+                 keyTimes = "0;0.25;0.5;0.75;1"/>
+        
+        <circle id = "hydrogen1" cx = "130" cy = "100" r = "12" fill = "blue"/>
+        <animate 
+                 xlink:href = "#hydrogen1"
+                 attributeName = "cx"
+                 begin = "0s"
+                 dur = "2s"
+                 values = "130; 140; 150; 180; 170"
+                 keyTimes = "0; 0.2;0.4;0.8;1"
+                 fill = "freeze"
+                 id = "h1"
+                 repeatCount = "indefinite"/>
+        
+         <circle id = "hydrogen2" cx = "270" cy = "100" r = "12" fill = "blue"/>
+          <animate 
+                 xlink:href = "#hydrogen2"
+                 attributeName = "cx"
+                 begin = "0s"
+                 dur = "2s"
+                 values = "270; 260; 250; 220; 230"
+                 keyTimes = "0; 0.2;0.4;0.8;1"
+                 fill = "freeze"
+                   repeatCount = "indefinite"/>
+        
+      </svg>
+      
+      <p>If there is a large electronegativity difference between atoms, then they will form an <b>ionic bond.</b> The atom with the larger electronegtaivity will have control over the electron in question.</p>
+      
+      <p>You can think of a polar bond as having an unequal electron density distribution.</p>
+      <svg width = "500" height = "500" viewBox = "0 0 500 500">
+        <rect width = "500" height = "500" stroke = " black" fill = "none"/>
+        <g id = "dipole">
+        <circle id = "rotate2" cx = "250" cy = "250" r = "30" fill = "blue"/>
+          <text x = "245" y = "260" font-size = "55px">-</text>
+           <circle id = "rotate2" cx = "220" cy = "250" r = "15" fill = "red"/>
+          <text x = "215" y = "258" font-size = "25px" font-weight = "bold"> + </text>
+        <animateTransform
+                          xlink:href = "#dipole"
+                          attributeName = "transform"
+                          attributeType = "xml"
+                          type = "rotate"
+                          from = "0 250 250"
+                          to = "360 300 300"
+                          begin = "0s"
+                          dur = "3s"
+                          repeatCount = "indefinite"
+                          />
+          
+      
+          
+        </g>
+        
+          <g id = "dipole2">
+        <circle id = "rotate2" cx = "150" cy = "150" r = "30" fill = "blue"/>
+          <text x = "145" y = "160" font-size = "55px">-</text>
+           <circle id = "rotate2" cx = "120" cy = "150" r = "15" fill = "red"/>
+          <text x = "115" y = "158" font-size = "25px" font-weight = "bold"> + </text>
+        <animateTransform
+                          xlink:href = "#dipole2"
+                          attributeName = "transform"
+                          attributeType = "xml"
+                          type = "rotate"
+                          from = "0 150 150"
+                          to = "-360 200 200"
+                          begin = "0s"
+                          dur = "3s"
+                          repeatCount = "indefinite"
+                          />
+        </g>
+        
+          </g>
+        
+          <g id = "dipole3">
+        <circle cx = "350" cy = "100" r = "30" fill = "blue"/>
+          <text x = "345" y = "100" font-size = "55px">-</text>
+           <circle cx = "320" cy = "100" r = "15" fill = "red"/>
+          <text x = "315" y = "108" font-size = "25px" font-weight = "bold"> + </text>
+        <animateTransform
+                          xlink:href = "#dipole3"
+                          attributeName = "transform"
+                          attributeType = "xml"
+                          type = "rotate"
+                          from = "0 350 100"
+                          to = "-360 320 120"
+                          begin = "0s"
+                          dur = "3s"
+                          repeatCount = "indefinite"
+                          />
+        </g>
+        
+      <g id = "dipole4">
+        <circle cx = "110" cy = "400" r = "30" fill = "blue"/>
+          <text x = "110" y = "410" font-size = "55px">-</text>
+           <circle cx = "85" cy = "410" r = "15" fill = "red"/>
+          <text x = "82" y = "415" font-size = "25px" font-weight = "bold"> + </text>
+        <animateTransform
+                          xlink:href = "#dipole4"
+                          attributeName = "transform"
+                          attributeType = "xml"
+                          type = "rotate"
+                          from = "0 110 400"
+                          to = "360 130 410"
+                          begin = "0s"
+                          dur = "3s"
+                          repeatCount = "indefinite"
+                          />
+        </g>
+        
+        <g id = "dipole5">
+        <circle cx = "380" cy = "400" r = "30" fill = "blue"/>
+          <text x = "380" y = "410" font-size = "55px">-</text>
+           <circle cx = "350" cy = "410" r = "15" fill = "red"/>
+          <text x = "350" y = "415" font-size = "25px" font-weight = "bold"> + </text>
+        <animateTransform
+                          xlink:href = "#dipole5"
+                          attributeName = "transform"
+                          attributeType = "xml"
+                          type = "rotate"
+                          from = "0 380 410"
+                          to = "-360 400 430"
+                          begin = "0s"
+                          dur = "3s"
+                          repeatCount = "indefinite"
+                          />
+        </g>
+        
+        
+      </svg>
+      
+      <p><u>The polar nature of water molecules is the reason why water is such a great solvent.</u></p>
+      <p>The hydrogen side of each water molecule carries a positive charge, while the oxygen side carries a positive charge. </p>
+      <p>When an ionic compoun is mixed with water, the compound disassociates into their positive and negative ion as they get attracted to the oppositely charged ends of the water molecule. </p>
+      <p>Metals and non-metals are found on the opposite ends of the periodic table and often form ionic bonds when they interact with each other. </p>
+      <div class = "flex-container">
+        <div>
+          <object data = "arrow_animated.svg" type = "image/svg+xml" width = "100" height = "100"></object>
+        </div>
+        <div>
+          <a href = "atomicsize.html">Atomic Size</a>
+        </div>
+        </div>
+
+      </div>
+   
+</body>
+</html>

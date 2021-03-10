@@ -1,0 +1,21 @@
+<!--?xml version="1.0" encoding="UTF-8" standalone="no"?-->
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" width="210mm" height="297mm" viewBox="0 0 210 297" version="1.1" id="svg8" style="">
+  <defs id="defs2"></defs>
+  <metadata id="metadata5">
+    <rdf:rdf>
+      <cc:work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></dc:type>
+        <dc:title></dc:title>
+      </cc:work>
+    </rdf:rdf>
+  </metadata>
+  <g id="layer1">
+    <g id="g845" style="stroke:#fcf6f2;stroke-opacity:1">
+      <path style="fill: rgb(51, 51, 51); stroke: rgb(252, 246, 242); stroke-width: 1.165; stroke-linecap: butt; stroke-linejoin: miter; stroke-opacity: 1; stroke-miterlimit: 4;" d="m 72.571427,107.72321 -26.836309,21.16667 49.514881,5.66964 z" id="path833" class="fvlgVqKP_0"></path>
+      <path style="fill: rgb(102, 102, 102); stroke: rgb(252, 246, 242); stroke-width: 1.165; stroke-linecap: butt; stroke-linejoin: miter; stroke-opacity: 1; stroke-miterlimit: 4;" d="m 72.571427,107.72321 50.648813,1.88988 -27.970241,24.94643 z" id="path835" class="fvlgVqKP_1"></path>
+      <path style="fill: rgb(77, 77, 77); stroke: rgb(252, 246, 242); stroke-width: 1.165; stroke-linecap: butt; stroke-linejoin: miter; stroke-opacity: 1; stroke-miterlimit: 4;" d="m 45.735118,128.88988 -13.607143,42.33333 72.193455,18.14286 -9.071431,-54.80655 z" id="path837" class="fvlgVqKP_2"></path>
+      <path style="fill: rgb(128, 128, 128); stroke: rgb(252, 246, 242); stroke-width: 1.165; stroke-linecap: butt; stroke-linejoin: miter; stroke-opacity: 1; stroke-miterlimit: 4;" d="m 123.22024,109.61309 29.86012,43.84524 -48.75893,35.90774 -9.071431,-54.80655 z" id="path839" class="fvlgVqKP_3"></path>
+    </g>
+  </g>
+<style data-made-with="vivus-instant">.fvlgVqKP_0{stroke-dasharray:120 122;stroke-dashoffset:121;animation:fvlgVqKP_draw_0 12200ms linear 0ms infinite,fvlgVqKP_fade 12200ms linear 0ms infinite;}.fvlgVqKP_1{stroke-dasharray:124 126;stroke-dashoffset:125;animation:fvlgVqKP_draw_1 12200ms linear 0ms infinite,fvlgVqKP_fade 12200ms linear 0ms infinite;}.fvlgVqKP_2{stroke-dasharray:225 227;stroke-dashoffset:226;animation:fvlgVqKP_draw_2 12200ms linear 0ms infinite,fvlgVqKP_fade 12200ms linear 0ms infinite;}.fvlgVqKP_3{stroke-dasharray:207 209;stroke-dashoffset:208;animation:fvlgVqKP_draw_3 12200ms linear 0ms infinite,fvlgVqKP_fade 12200ms linear 0ms infinite;}@keyframes fvlgVqKP_draw{100%{stroke-dashoffset:0;}}@keyframes fvlgVqKP_fade{0%{stroke-opacity:1;}96.72131147540983%{stroke-opacity:1;}100%{stroke-opacity:0;}}@keyframes fvlgVqKP_draw_0{6.557377049180328%{stroke-dashoffset: 121}10.932979749276761%{ stroke-dashoffset: 0;}100%{ stroke-dashoffset: 0;}}@keyframes fvlgVqKP_draw_1{10.932979749276761%{stroke-dashoffset: 125}15.453230472516877%{ stroke-dashoffset: 0;}100%{ stroke-dashoffset: 0;}}@keyframes fvlgVqKP_draw_2{15.453230472516873%{stroke-dashoffset: 226}23.625843780135003%{ stroke-dashoffset: 0;}100%{ stroke-dashoffset: 0;}}@keyframes fvlgVqKP_draw_3{23.625843780135007%{stroke-dashoffset: 208}31.147540983606557%{ stroke-dashoffset: 0;}100%{ stroke-dashoffset: 0;}}</style></svg>
